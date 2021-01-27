@@ -87,7 +87,7 @@ function spawnEnemy(e){
   }
   if(checkEnemyCollision().length > 0) {
     destroyEnemy(checkEnemyCollision());
-    spawnEnemy();
+    spawnEnemy(e);
   }
 }
 
